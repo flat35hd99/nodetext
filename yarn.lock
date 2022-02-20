@@ -965,6 +965,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@dash14/svg-pan-zoom@^3.6.5":
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/@dash14/svg-pan-zoom/-/svg-pan-zoom-3.6.5.tgz#80674ae1984565973390800aa99b8a556aa44dce"
+  integrity sha512-SKv/gdBIRMycL7XhxnWh8v4Q2Jp6JoRol79uDjC+xXqIZaaVlrR/bHFjnlgq6koAgQoq6H7In+fHJ5rlkg2flQ==
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -5665,6 +5670,11 @@ minipass@^3.1.1:
   dependencies:
     yallist "^4.0.0"
 
+mitt@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.0.tgz#69ef9bd5c80ff6f57473e8d89326d01c414be0bd"
+  integrity sha512-7dX2/10ITVyqh4aOSVI9gdape+t9l2/8QxHrFmUXu4EEUpdlxl6RudZUPZoc+zuY2hk1j7XxVroIVIan/pD/SQ==
+
 mkdirp@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
@@ -7632,6 +7642,14 @@ uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+v-network-graph@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/v-network-graph/-/v-network-graph-0.4.2.tgz#47708f923f3c1b8bee7cb08b12a24aecb973e4c8"
+  integrity sha512-/UL9nq6C2QtYrmteY4vH48Rd4L6t8uiO4hLyUzHHrs2zy8DvQ7kyeyK2RDjeBYlvusyPZX9Wz1W8vXU6POEPQA==
+  dependencies:
+    "@dash14/svg-pan-zoom" "^3.6.5"
+    mitt "^3.0.0"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
